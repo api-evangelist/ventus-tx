@@ -1,7 +1,29 @@
 aid: ventus-tx
-name: Ventus Tx
-description: Ventus Tx is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ventus-tx.png
+name: Ventus Therapeutics
+description: >-
+  Ventus Therapeutics is a clinical-stage biopharmaceutical company based in
+  Waltham, Massachusetts, with research operations in Montreal, Canada. Ventus
+  uses its proprietary, machine-learning-enabled computational chemistry and
+  structural biology platform, ReSOLVE, together with deep protein-science
+  expertise, to design differentiated small-molecule therapeutics targeting the
+  innate immune system (including cGAS and NLRP3 inhibitors) for autoimmune and
+  inflammatory diseases, neurological disorders, and cancer. It was surfaced as
+  an a16z portfolio company and added to the API Evangelist network. Enrichment
+  confirmed Ventus operates a corporate/investor website only and publishes no
+  public developer API, SDK, OpenAPI, MCP server, or /.well-known discovery
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/ventus-tx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Therapeutics
+- Life Sciences
+- Healthcare
+- Immunology
+- Computational Chemistry
+common:
+- type: Website
+  url: https://www.ventustx.com/
+- type: About
+  url: https://www.ventustx.com/about/
+- type: Blog
+  url: https://www.ventustx.com/news/
+- type: Support
+  url: https://www.ventustx.com/contact/
+- type: PrivacyPolicy
+  url: https://www.ventustx.com/privacy-policy/
+- type: Pipeline
+  url: https://www.ventustx.com/pipeline/
+- type: Platform
+  url: https://www.ventustx.com/platform/
+- type: Careers
+  url: https://www.ventustx.com/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ventus-therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
